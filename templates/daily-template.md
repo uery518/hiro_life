@@ -10,6 +10,5 @@
 - [ ] Task 3
 
 ## Notes
-- Energy level:
 - Blockers:
 - Reflection:
