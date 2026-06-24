@@ -1,6 +1,7 @@
 # SREキャリア目標
 
 ## サマリー
+
 - **ゴール:** 転職市場でSREとして通用する実力をつける
 - **理由:** 18年のサーバエンジニア経験を活かし、SREとして次のキャリアステージへ
 - **期限:** 2028-06-09（2年後）
@@ -9,6 +10,7 @@
 ---
 
 ## 現状の強み
+
 - 18年のサーバ運用・障害対応経験
 - クラウド経験（3年）
 - IaC経験（Terraform等、改修・追加は可）
@@ -27,35 +29,44 @@
 
 ---
 
-## ロードマップ
+## ロードマップ（資格取得ベース）
 
-### Phase 1: 基礎固め（2026-06 〜 2026-12）
-SREの核心概念と、不足している基礎スキルを身につける。
+資格取得に特化する方針に変更（2026-06-24）。順序は以下。
 
-- [ ] SLI/SLO/エラーバジェットの概念を理解し、自分で設計できる
-- [ ] Prometheusでメトリクスを収集し、Grafanaでダッシュボードを作れる
-- [ ] Dockerを使いこなし、コンテナの基礎を固める
-- [ ] PythonでOOP（クラス設計）を習得する
-- [ ] 『SRE本（Googleのサイトリライアビリティエンジニアリング）』を通読する
+AWS SAA → CKA＋Terraform（並行） → AWS SOA → AWS DVA → CKS → AWS SAP → AWS DOP
 
-### Phase 2: 実践スキル習得（2027-01 〜 2027-06）
-転職市場で見られるコア技術を実際に手を動かして習得する。
+### Phase 1: AWS SAA取得（2026-07 〜 2026-09）
 
-- [ ] Kubernetesをゼロから構築・運用できる（CKA取得も視野に）
-- [ ] TerraformでクラウドインフラをゼロからIaC化できる
-- [ ] GitHub Actionsでアプリのデプロイパイプラインをゼロから作れる
-- [ ] 自分のプロジェクト（個人環境）に上記を組み合わせて実装する
+- [ ] AWS Certified Solutions Architect – Associate 取得
+- [ ]（継続・低頻度）『SRE本』を読み進める
 
-### Phase 3: ポートフォリオ構築（2027-07 〜 2027-12）
-「やってきた」ことを外部に示せる形に整える。
+### Phase 2: CKA ＋ Terraform Associate（並行）（2026-10 〜 2027-03）
 
-- [ ] GitHubにSRE関連の実装を公開する（IaC・監視設定・自動化スクリプト等）
-- [ ] Zennやブログで技術記事を3本以上書く
-- [ ] 過去の障害対応経験をポストモーテム形式で言語化する
-- [ ] 転職サイトのSRE求人と自分のスキルのギャップを確認・埋める
+- [ ] CKA（Certified Kubernetes Administrator）取得
+- [ ] HashiCorp Certified: Terraform Associate 取得
 
-### Phase 4: 転職活動（2028-01 〜 2028-06）
+### Phase 3: AWS SOA取得（2027-04 〜 2027-06）
+
+- [ ] AWS Certified SysOps Administrator – Associate 取得
+
+### Phase 4: AWS DVA取得（2027-07 〜 2027-09）
+
+- [ ] AWS Certified Developer – Associate 取得
+- [ ]（並行開始）GitHubにポートフォリオ公開を始める
+
+### Phase 5: CKS取得（2027-10 〜 2027-12）
+
+- [ ] CKS（Certified Kubernetes Security Specialist）取得
+- [ ] ポートフォリオ・技術記事を継続して整える
+
+### Phase 6: AWS SAP取得（2028-01 〜 2028-03）
+
+- [ ] AWS Certified Solutions Architect – Professional 取得
 - [ ] 職務経歴書をSRE視点で書き直す
+
+### Phase 7: AWS DOP取得 ＋ 転職活動（2028-04 〜 2028-06）
+
+- [ ] AWS Certified DevOps Engineer – Professional 取得
 - [ ] 転職エージェント・Findy・LAPRASなどに登録する
 - [ ] 面接対策（システム設計・インシデント対応の言語化）
 - [ ] 目標企業に応募・内定
@@ -63,10 +74,13 @@ SREの核心概念と、不足している基礎スキルを身につける。
 ---
 
 ## 学習ペース
+
 - 平日30分 × 5日 = 週2.5時間、月約10時間
 - 1ヶ月に1テーマを集中して習得するペースが現実的
 - 詰め込みすぎず、毎日続けることを最優先にする
 
 ## 進捗メモ
 <!-- 月次で更新 -->
+
 - 2026-06: ゴール設定完了
+- 2026-06-24: 資格取得特化の方針に変更。ロードマップをAWS/CKA/Terraform資格ベースに再構成
